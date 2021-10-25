@@ -1,0 +1,45 @@
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="keywords" content="redcaps, deep learning, computer vision, neural networks, machine learning, image, caption">
+  <link rel="shortcut icon" href="{{ site.url }}/static/img/paper/teaser.jpg">
+
+  <!-- fall back to site title if page has no title -->
+  <title>
+    {%if page.title %}
+       {{ page.title }}
+   {% else %}
+       {{ site.title }}
+   {% endif %}
+  </title>
+  <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+
+  <!--Open Graph Related Stuff-->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="/static/img/paper/teaser.jpg"/>
+  <meta property="og:image:url" content="/static/img/paper/teaser.jpg"/>
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <!--Twitter Card Stuff-->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:creator" content="@kdexd">
+  <meta name="twitter:image" content="{{ site.url }}/static/twitter_card.jpg"/>
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}"/>
+  <meta name="twitter:domain" value="{{site.url}}">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="/static/css/navbar.css">
+</head>

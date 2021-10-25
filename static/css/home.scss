@@ -1,0 +1,112 @@
+---
+---
+@import "style";
+
+/************************************************
+ * General elements on home page                *
+ ************************************************/
+
+a {
+    color: $anchor-color;
+    text-decoration: none;
+    border-bottom: 1px solid $text-color;
+    text-underline-position: under;
+}
+
+a:hover {
+    color: $anchor-color;
+    border-bottom: 1px solid $anchor-underline-color;
+    text-decoration: solid;
+}
+
+/************************************************
+ * Teasure figure and caption                   *
+ ************************************************/
+
+#teaser-figure {
+    display: block;
+    margin: 20px 0 0 0;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+#teaser-caption {
+    display: block;
+    font-size: $caption-fs;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+/************************************************
+ |  Paper                                       |
+ ************************************************/
+
+.paper-container {
+    margin: 0;
+    padding: 0 0 20px 0;
+
+    div {
+        padding: 0;
+    }
+}
+
+.paper-title {
+    font-size: $paper-title-fs;
+    font-weight: 700;
+    margin: 4px 0 4px 0;
+}
+
+.paper-authors {
+    line-height: $line-height;
+    font-size: $paper-authors-fs;
+}
+
+.paper-banner {
+    border: 1px solid silver;
+    margin: 10px 0 0 0;
+    width: 100%;
+
+    img {
+        width: 100%
+    }
+}
+
+
+/************************************************
+ * People section                               *
+ ************************************************/
+
+.people-container {
+    padding-right: 0px;
+}
+
+/** Remove border from peoples' pictures. */
+.people-pic-hyperlink, .people-pic-hyperlink:hover {
+    border: 0px;
+}
+
+.people-pic {
+    max-width: 135px;
+    max-height: 135px;
+}
+
+.people-name {
+    margin: 3px 0 3px 0;
+}
+
+.people-name a {
+    font-size: $people-fs;
+    font-weight: 700;
+}
+
+.people-affiliation {
+    font-size: $people-fs - 2px;
+    margin: 3px 0 3px 0;
+}
+
+.affiliation-logo {
+    display: inline-block;
+    margin: 30px 5px 10px 5px;
+    max-height: 30px;
+}
