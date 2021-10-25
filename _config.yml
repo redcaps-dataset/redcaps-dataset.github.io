@@ -1,0 +1,18 @@
+title: "RedCaps"
+subtitle: "RedCaps: Web-curated image-text data created by the people, for the people"
+url: "https://redcaps.xyz"
+
+# Build settings
+markdown: kramdown
+include: ["_pages"]
+plugins_dir:
+  - jekyll-sitemap
+
+sass:
+  style: "compressed"
+  sass_dir: "static/css"
+
+exclude:
+  - "_app-explore"
+  - "_app-homepage"
+  - "scripts"

@@ -1,0 +1,87 @@
+---
+---
+@import "style";
+
+/************************************************
+ |  Navbar                                      |
+ ************************************************/
+
+#navbar {
+    color: $navbar-text-color;
+    position: fixed;
+    padding: 1rem 0 0 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $navbar-background-color;
+    z-index: 1030;
+}
+
+#site-title-container {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#site-title {
+    color: $title-color;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#navbar-ul-container {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+.navbar-ul {
+    margin: 5px;
+    list-style-type: none;
+}
+
+.nav-listitem {
+    margin: 0 15px 0 15px;
+    font-size: 1.3rem;
+    display: inline-block;
+    a {
+        color: $navbar-text-color;
+        font-weight: 700;
+        border: 0px;
+    }
+}
+
+#navbar-border {
+    clear: both;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 650px) {
+    #navbar {
+        position: absolute;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    #navbar {
+        position: absolute;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+
+    #site-title-container {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    #navbar-ul-container {
+        display: block;
+        float: none;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+}

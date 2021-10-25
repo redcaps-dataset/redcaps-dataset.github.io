@@ -1,0 +1,13 @@
+.vscode
+
+# Jekyll stuff.
+_site
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+
+# React stuff.
+_app*/build
+_app*/node_modules
+_app*/static
+_app*/yarn.lock

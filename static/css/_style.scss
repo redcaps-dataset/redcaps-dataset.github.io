@@ -1,0 +1,146 @@
+/*
+ * Customization Variables
+ */
+
+/*
+* Font sizes
+*/
+ 
+$line-height: 22px;
+$caption-fs: 16px;
+$paper-title-fs: 20px;
+$paper-authors-fs: 16px;
+$people-fs: 17px;
+ 
+/*
+* Colors
+*/
+
+$navbar-background-color: white;
+$navbar-text-color: #c62828;
+$anchor-color: #c62828;
+$anchor-underline-color: #ef9a9a;
+$text-color: black;
+$title-color: black;
+ 
+/*
+ * Basic
+ */
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 100px 0 0 0;
+    margin: 0;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    height: 100%;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 1;
+    margin: 20px 0 20px 0;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1;
+    margin: 14px 0 14px 0;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 1;
+    margin: 8px 0 8px 0;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 1;
+    margin: 4px 0 4px 0;
+}
+
+p {
+    line-height: 22px;
+    font-size: 16px;
+    color: $text-color;
+}
+
+hr {
+    margin: 10px 0 10px 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.anchor:before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+}
+
+.float-right {
+    float: right; 
+}
+
+.content {
+    ol {
+        counter-reset: list;
+    }
+    ol > li {
+        list-style-position: none;
+        position: relative;
+        list-style: none;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    ul > li {
+        margin: 5px 0 5px 0;
+    }
+    ul {
+        padding: 0 20px 0 20px;;
+    }
+    ol {
+        padding: 0 30px 0 30px;
+    }
+    ol > li:before {
+        content: "[" counter(list, decimal) "] ";
+        counter-increment: list;
+        position: absolute;
+        left: -30px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 100%;
+        transition: 0.3s ease all;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 100%;
+    }
+    body {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 100%;
+    }
+    body {
+        padding-top: 100px;
+    }
+}
