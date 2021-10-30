@@ -55,7 +55,7 @@ permalink: "/"
     <span class="paper-authors">Karan Desai, Gaurav Kaul, Zubin Aysola, Justin Johnson</span>
     <br>
     <div class="paper-banner col-md-12 col-sm-12 col-xs-12">
-      <a href="/paper" target="_blank"> <img src="static/img/paper/redcaps_banner.png" alt="redcaps paper" title="redcaps paper"/> </a>
+      <a href="https://openreview.net/pdf?id=VjJxBi1p9zh" target="_blank"> <img src="static/img/paper/redcaps_banner.png" alt="redcaps paper" title="redcaps paper"/> </a>
     </div>
   </div>
 </div>
