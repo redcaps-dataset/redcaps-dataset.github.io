@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: container
 permalink: "/explore/pottery"
 ---
 

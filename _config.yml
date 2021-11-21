@@ -11,8 +11,3 @@ plugins_dir:
 sass:
   style: "compressed"
   sass_dir: "static/css"
-
-exclude:
-  - "_app-explore"
-  - "_app-homepage"
-  - "scripts"

@@ -55,7 +55,12 @@
  ************************************************/
 
 .people-container {
-    padding-right: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    .col:first-child {
+        padding-left: 0;
+    }
 }
 
 /** Remove border from peoples' pictures. */
@@ -64,12 +69,14 @@
 }
 
 .people-pic {
-    max-width: 150px;
-    max-height: 150px;
+    display: block;
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
 }
 
 .people-name {
-    margin: 3px 0 3px 0;
+    text-align: center;
 }
 
 .people-name a {
@@ -87,14 +94,18 @@
     max-height: 30px;
 }
 
+/************************************************
+ * Cover section                                *
+ ************************************************/
+
 .cover-container {
     height: 350px;  // calc(100vh - 300px);
+    margin-top: -0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #d45855;
-    // background: url("https://lh3.googleusercontent.com/proxy/6lJclsNQrdL4olwT4k7Un3R6dNhjhYtv947nESJu6EH9pnfmTB9CHN5wQMHGL0OblJc-pprZ-tJQKeK5EQJW2bBqMGHXsNyeCAL33tVpwyJTGcKWzDocHchio48Pp7s");
 
     .cover-text {
         color: white;
@@ -113,12 +124,36 @@
 .home-stats {
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-  .stat-number {
+}
+
+.stat-number {
     color: #d45855;
     font-weight: 700;
     font-size: 2.5rem;
-  }
-  .stat-subtext {
+}
+
+.stat-subtext {
     font-size: 1.25rem;
-  }
+}
+
+  /* Mobile */
+
+@media (max-width: 650px) {
+    .cover-container {
+        height: 300px;
+        .cover-text {
+            width: 30rem;
+            font-size: 1.7rem;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .cover-container {
+        height: 250px;
+        .cover-text {
+            width: 25rem;
+            font-size: 1.4rem;
+        }
+    }
+}

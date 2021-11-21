@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: container
+urltitle:  "Explore · RedCaps"
+title: "Explore · RedCaps"
 permalink: "/explore"
 ---
 
@@ -409,4 +411,3 @@ Actual size of each subreddit is mentioned in paranthesis.
 </div>
 <hr>
 <h3>Z</h3><div class="row"><div class="col-md-4 col-sm-4 col-xs-12"><span><a href="/explore/zerowaste">r/zerowaste</a> (7.6K)</span></div>
-
