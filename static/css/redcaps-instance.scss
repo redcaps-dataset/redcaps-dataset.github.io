@@ -1,0 +1,28 @@
+@import "style";
+
+// Style for a single card displaying RedCaps instance.
+.redcaps-instance {
+    height: 100%;
+    box-shadow: 0 .5rem 1rem rgba(black, .15);
+
+    .image-div {
+        max-height: 15rem;
+        object-fit: cover;
+    }
+    .caption-div {
+        padding: 10px;
+
+        .caption-span {
+            font-size: 1rem;
+
+            a:hover {
+                color: $anchor-color;
+            }
+        }
+    }
+}
+
+// Remove default anchor underline from image.
+.redcaps-instance > a:first-child:hover {
+    border-bottom: 0px;
+}
