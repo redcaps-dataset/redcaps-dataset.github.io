@@ -3,31 +3,8 @@
 @import "style";
 
 /************************************************
- * General elements on home page                *
- ************************************************/
-
-a {
-    color: $anchor-color;
-    text-decoration: none;
-}
-
-a:hover {
-    color: $anchor-color;
-    border-bottom: 1px solid $anchor-underline-color;
-    text-decoration: solid;
-}
-
-/************************************************
  * Teasure figure and caption                   *
  ************************************************/
-
-#teaser-figure {
-    display: block;
-    margin: 20px 0 0 0;
-    max-width: 100%;
-    vertical-align: middle;
-    border: 0;
-}
 
 #teaser-caption {
     display: block;
@@ -107,3 +84,39 @@ a:hover {
     margin: 30px 5px 10px 5px;
     max-height: 30px;
 }
+
+.cover-container {
+    height: 350px;  // calc(100vh - 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d45855;
+    // background: url("https://lh3.googleusercontent.com/proxy/6lJclsNQrdL4olwT4k7Un3R6dNhjhYtv947nESJu6EH9pnfmTB9CHN5wQMHGL0OblJc-pprZ-tJQKeK5EQJW2bBqMGHXsNyeCAL33tVpwyJTGcKWzDocHchio48Pp7s");
+
+    .cover-text {
+        color: white;
+        width: 45rem;
+        font-size: 2.5rem;
+    }
+}
+
+.cover-subtitle-container {
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(black, .15);
+}
+
+.home-stats {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .stat-number {
+    color: #d45855;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .stat-subtext {
+    font-size: 1.25rem;
+  }

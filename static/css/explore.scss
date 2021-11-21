@@ -2,13 +2,15 @@
 ---
 @import "style";
 
-span > a {
-    color: $anchor-color;
-    text-decoration: none;
-}
+.subreddit-link {
+    a {
+        color: $anchor-color;
+        text-decoration: none;
+    }
 
-span > a:hover {
-    color: $anchor-color;
-    text-decoration: none;
-    border-bottom: 1px solid $anchor-underline-color;
+    a:hover {
+        color: $anchor-color;
+        text-decoration: none;
+        border-bottom: 1px solid $anchor-underline-color;
+    }
 }

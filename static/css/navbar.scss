@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: $navbar-background-color;
+    background-color: #d45855;
     z-index: 1030;
 }
 
@@ -22,8 +22,8 @@
     vertical-align: bottom;
 }
 
-#site-title {
-    color: $title-color;
+#site-title a {
+    color: $navbar-text-color;
     font-weight: 700;
     font-size: 2rem;
 }
@@ -48,13 +48,7 @@
     a {
         color: $navbar-text-color;
         font-weight: 700;
-        border: 0px;
     }
-}
-
-#navbar-border {
-    clear: both;
-    margin: 20px 0 0 0;
 }
 
 @media (max-width: 650px) {
