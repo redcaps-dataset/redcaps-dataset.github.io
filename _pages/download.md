@@ -8,6 +8,9 @@ permalink: "/download"
 ## Download RedCaps v1.0
 
 
+API terms: https://www.reddit.com/wiki/api-terms
+
+
 ```text
 - LICENSE.txt
 - TERMSOFUSE.txt

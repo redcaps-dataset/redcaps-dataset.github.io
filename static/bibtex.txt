@@ -1,0 +1,6 @@
+@inproceedings{desai2021redcaps,
+    title={{RedCaps: Web-curated image-text data created by the people, for the people}},
+    author={Karan Desai and Gaurav Kaul and Zubin Aysola and Justin Johnson},
+    booktitle={NeurIPS Datasets and Benchmarks},
+    year={2021}
+}

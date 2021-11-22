@@ -8,6 +8,11 @@
  * Teasure figure and caption                   *
  ************************************************/
 
+// Add a faint gray underline in anchors of main section.
+.content a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
 #teaser-caption {
     display: block;
     font-size: $caption-fs;
@@ -15,18 +20,26 @@
     margin: 10px 0 20px 0;
 }
 
+// Generic title of any section on home page.
+.homesec-title {
+    margin-top: 1rem;
+}
+
+// Generic container for body of any section on home page.
+.homesec-content {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    // First child in container must not have any left margin/padding so it can
+    // align nicely with the heading.
+    .col:first-child {
+        padding-left: 0;
+    }
+}
+
 /************************************************
  |  Paper                                       |
  ************************************************/
-
-.paper-container {
-    margin: 0;
-    padding: 0 0 20px 0;
-
-    div {
-        padding: 0;
-    }
-}
 
 .paper-title {
     font-size: $paper-title-fs;
@@ -40,28 +53,22 @@
 }
 
 .paper-banner {
-    border: 1px solid silver;
     margin: 10px 0 0 0;
     width: 100%;
+    box-shadow: 0 .5rem 1rem rgba(black, .15);
 
     img {
         width: 100%
     }
 }
 
+.paper-links {
+    margin: 5px 0 0 0;
+}
 
 /************************************************
  * People section                               *
  ************************************************/
-
-.people-container {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-
-    .col:first-child {
-        padding-left: 0;
-    }
-}
 
 /** Remove border from peoples' pictures. */
 .people-pic-hyperlink, .people-pic-hyperlink:hover {

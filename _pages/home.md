@@ -35,24 +35,38 @@ permalink: "/"
 <!-- --------------------------------------------------------------------- -->
 <!--                              PAPER                                    -->
 <!-- --------------------------------------------------------------------- -->
-<div class="container">
+<div class="container homesec-title">
   <div class="row">
-    <h2 class="anchor" id="paper">Paper</h2>
-    <div class="paper-container" style="horizontal-align: center">
+    <h2>Paper</h2>
+  </div>
+  <div class="row homesec-content">
+    <div class="col">
       <span class="paper-title">RedCaps: web-curated image-text data created <i>by the people, for the people</i></span>
       <br/>
       <span class="paper-authors">Karan Desai, Gaurav Kaul, Zubin Aysola, Justin Johnson</span>
       <br>
-      <div class="paper-banner col-md-12 col-sm-12 col-xs-12">
-        <a href="//openreview.net/forum?id=VjJxBi1p9zh" target="_blank"> <img src="static/img/redcaps_banner.png" alt="redcaps paper" title="redcaps paper"/> </a>
+      <!-- Additional paper links -->
+      <div class="paper-links">
+        <span>
+          <b>NeurIPS 2021 Datasets and Benchmarks</b>
+          (
+            <a href="/static/bibtex.txt" target="_blank">bibtex</a>,
+            <a href="//recorder-v3.slideslive.com/#/share?share=55105&s=09449ffd-89b1-4fdd-9aca-b5fbdd3d5461" target="_blank">5-minute video</a>
+          )
+        </span>
+      </div>
+      <div class="paper-banner col-12">
+        <a href="//openreview.net/forum?id=VjJxBi1p9zh" target="_blank">
+          <img src="static/img/redcaps_banner.jpg" alt="redcaps paper" title="redcaps paper"/>
+        </a>
       </div>
     </div>
   </div>
 
-  <div class="row">
-    <h2 class="anchor" id="paper">People</h2>
+  <div class="row homesec-title">
+    <h2>People</h2>
   </div>
-  <div class="row people-container">
+  <div class="row homesec-content">
     <!-- Karan Desai -->
     <div class="col">
       <a class="people-pic-hyperlink" href="//kdexd.xyz/" target="_blank">
