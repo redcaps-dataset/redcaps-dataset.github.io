@@ -3,7 +3,6 @@ subtitle: "RedCaps: Web-curated image-text data created by the people, for the p
 url: "https://redcaps.xyz"
 
 # Build settings
-markdown: kramdown
 include: ["_pages"]
 plugins_dir:
   - jekyll-sitemap
@@ -11,3 +10,14 @@ plugins_dir:
 sass:
   style: "compressed"
   sass_dir: "static/css"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge

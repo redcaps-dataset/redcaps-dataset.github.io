@@ -116,6 +116,14 @@ hr {
     }
 }
 
+.language-text, .language-json {
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
 /* Mobile */
 
 @media (max-width: 800px) {
