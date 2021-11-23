@@ -32,16 +32,17 @@
   <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:image" content="/static/img/paper/teaser.jpg"/>
-  <meta property="og:image:url" content="/static/img/paper/teaser.jpg"/>
+  <meta property="og:image" content="/static/twitter_card.jpeg"/>
+  <meta property="og:image:url" content="/static/twitter_card.jpeg"/>
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
+  <!--Twitter Card Stuff-->
   <!--Twitter Card Stuff-->
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:creator" content="@kdexd">
-  <meta name="twitter:image" content="{{ site.url }}/static/twitter_card.jpg"/>
+  <meta name="twitter:image" content="{{site.url}}/static/twitter_card.jpeg"/>
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}"/>
   <meta name="twitter:domain" value="{{site.url}}">
 
