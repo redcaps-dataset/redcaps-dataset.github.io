@@ -32,8 +32,6 @@ permalink: "/"
   Explore more instances in RedCaps <a href="/explore">here</a>!
 </span>
 
-<hr>
-
 <!-- --------------------------------------------------------------------- -->
 <!--                              PAPER                                    -->
 <!-- --------------------------------------------------------------------- -->
@@ -64,8 +62,6 @@ permalink: "/"
       </div>
     </div>
   </div>
-
-  <hr>
 
   <div class="row homesec-title">
     <h2>People</h2>
