@@ -56,7 +56,7 @@ permalink: "/"
         </span>
       </div>
       <div class="paper-banner col-12">
-        <a href="//openreview.net/forum?id=VjJxBi1p9zh" target="_blank">
+        <a href="//arxiv.org/abs/2111.11431" target="_blank">
           <img src="static/img/redcaps_banner.jpg" alt="redcaps paper" title="redcaps paper"/>
         </a>
       </div>
